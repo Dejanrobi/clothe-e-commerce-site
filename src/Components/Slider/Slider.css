@@ -1,0 +1,38 @@
+.slider {
+  height: calc(100vh - 60px);
+  width: 100%;
+  overflow: hidden;
+}
+.slider .container {
+  width: 300vw;
+  display: flex;
+  height: 100%;
+  transform: translateX(0vw);
+  transition: all 1s ease;
+}
+.slider .container img {
+  width: 100vw;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.slider .icons {
+  display: flex;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 65px;
+  gap: 10px;
+}
+.slider .icons .icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}/*# sourceMappingURL=Slider.css.map */
