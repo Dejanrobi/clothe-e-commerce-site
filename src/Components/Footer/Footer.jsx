@@ -41,7 +41,7 @@ const Footer = () => {
           <span className="copyright">© Coyright 2023, All Rights Reserved</span>
         </div>
         <div className="right">
-          <img src="images/payment.png" alt="Payments" />
+          <img src="../../Images/payment.png" alt="Payments" />
         </div>
       </div>
     </div>

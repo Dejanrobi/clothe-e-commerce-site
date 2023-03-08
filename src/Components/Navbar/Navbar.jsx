@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="item">
-            <img src="images/en.png" alt="Logo" />
+            <img src="../../Images/en.png" alt="Logo" />
             <FiChevronDown/>
           </div>
 
